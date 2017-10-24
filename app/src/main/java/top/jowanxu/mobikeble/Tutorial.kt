@@ -79,15 +79,15 @@ class Tutorial : IXposedHookLoadPackage {
     }
 
     companion object {
-        private val TOP_JOWANXU_MOBIKEBLE = "top.jowanxu.mobikeble"
-        private val TOP_JOWANXU_MOBIKEBLE_ACTIVITY = "top.jowanxu.mobikeble.MainActivity"
-        private val HOOK_SCANLOGIN_METHOD_NAME = "isModuleLoaded"
-        private val COM_MOBIKE_APP = "com.mobike.mobikeapp"
-        private val HOOK_ACTIVITY_CLASS_NAME = "android.app.Activity"
-        private val HOOK_ACTIVITY_NAME = "QRCode"
-        private val ON_RESUME = "onResume"
-        private val ON_DESTROY = "onDestroy"
-        private val HOOK_ERROR = "Hook 出错 "
+        private const val TOP_JOWANXU_MOBIKEBLE = "top.jowanxu.mobikeble"
+        private const val TOP_JOWANXU_MOBIKEBLE_ACTIVITY = "top.jowanxu.mobikeble.MainActivity"
+        private const val HOOK_SCANLOGIN_METHOD_NAME = "isModuleLoaded"
+        private const val COM_MOBIKE_APP = "com.mobike.mobikeapp"
+        private const val HOOK_ACTIVITY_CLASS_NAME = "android.app.Activity"
+        private const val HOOK_ACTIVITY_NAME = "QRCode"
+        private const val ON_RESUME = "onResume"
+        private const val ON_DESTROY = "onDestroy"
+        private const val HOOK_ERROR = "Hook 出错 "
         private val TAG = Tutorial::class.java.simpleName
 
     }
